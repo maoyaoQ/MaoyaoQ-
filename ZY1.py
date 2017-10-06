@@ -1,11 +1,10 @@
 
 import string
-import re #正则表达处理模块
+import re #正则表达
 from collections import Counter
 import nltk
 from zhon.hanzi import punctuation
 
-#文本存放路径，要改为你本地存储路径
 file_path = "D:\\projects\\deep learning\\happiness_seg.txt"
 
 with open(file_path, encoding='utf-8') as f:
